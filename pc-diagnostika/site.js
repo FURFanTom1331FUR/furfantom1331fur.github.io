@@ -32,11 +32,21 @@
     a.rel = 'noopener';
   });
 
+  document.querySelectorAll('[data-promo]').forEach(function (a) {
+    a.href = cfg.BOOSTY_URL;
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+
   document.addEventListener('click', function (e) {
     var node = e.target && e.target.closest ? e.target : null;
     if (!node) return;
     if (node.closest('[data-download]')) {
       goal('pcd_download');
+      return;
+    }
+    if (node.closest('[data-promo]')) {
+      goal('pcd_promo_info');
       return;
     }
     var buy = node.closest('[data-boosty]');
