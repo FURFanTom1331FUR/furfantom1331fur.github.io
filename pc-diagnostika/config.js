@@ -9,8 +9,8 @@ var PCD = {
   BOOSTY_URL: 'https://boosty.to/13fantom31',
   PLAN_URLS: {
     '1m': null,
-    '3m': null,
-    '1y': null,
+    '3m': 'https://boosty.to/13fantom31/posts/2e93b976-3b2d-4f5e-bed9-30a4d12b5433',
+    '1y': 'https://boosty.to/13fantom31/posts/10ad45c6-9703-46d5-bc99-0a200fdf54a2',
     steps: null,
     contact: null
   },
