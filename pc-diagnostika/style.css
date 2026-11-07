@@ -214,6 +214,25 @@ h2{margin:0 0 8px;font-size:30px;line-height:1.15;letter-spacing:-.02em}
 @media (min-width:861px){
   .price:not(:has(.badge)) h3{margin-top:28px}
 }
+.promo{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:18px;
+  box-shadow:var(--shadow);
+}
+.promo .path{margin:10px 0;font-weight:700}
+.promo ul{margin:8px 0 12px;padding-left:18px}
+.promo li{margin:4px 0}
+.promo .btn{margin-top:4px}
+.code{
+  font-family:ui-monospace,"Cascadia Code","Segoe UI Mono",monospace;
+  font-size:.92em;
+  background:var(--soft);
+  padding:1px 6px;
+  border-radius:6px;
+  word-break:break-all;
+}
 .shot-space{margin-top:12px}
 .more-links{margin-top:16px}
 
