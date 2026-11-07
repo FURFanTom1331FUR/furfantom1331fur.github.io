@@ -8,7 +8,8 @@
 <link rel="canonical" href="https://furfantom1331fur.github.io/pc-diagnostika/">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0c3d48">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="favicon.png">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Диагностика ПК">
@@ -16,15 +17,15 @@
 <meta property="og:description" content="Одна проверка покажет состояние дисков, драйверов, служб, температур и сети. Можно попробовать бесплатно. Ключ на срок — на один компьютер.">
 <meta property="og:url" content="https://furfantom1331fur.github.io/pc-diagnostika/">
 <meta property="og:image" content="https://furfantom1331fur.github.io/pc-diagnostika/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="720">
 <meta property="og:image:alt" content="Диагностика ПК — проверка компьютера на Windows 10 и 11">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Диагностика ПК — проверка компьютера на Windows">
 <meta name="twitter:description" content="Диски, драйверы, температуры и сеть. Пробный запуск бесплатно, ключ на срок — на один компьютер.">
 <meta name="twitter:image" content="https://furfantom1331fur.github.io/pc-diagnostika/og.png">
 <script>/* тема до отрисовки, чтобы не мигало */try{var t=localStorage.getItem('pcd.theme');if(t||matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.dataset.theme=t||'dark'}catch(e){}</script>
-<link rel="stylesheet" href="style.css?v=20261107b">
+<link rel="stylesheet" href="style.css?v=20261107c">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -126,7 +127,7 @@
 <header class="top">
   <div class="wrap">
     <nav class="nav" aria-label="Разделы">
-      <a class="logo" href="./"><img src="favicon.svg" alt="" width="28" height="28"> Диагностика ПК</a>
+      <a class="logo" href="./"><img src="favicon.png" alt="" width="32" height="32"> Диагностика ПК</a>
       <div class="nav-side">
         <details class="nav-drop">
           <summary>Меню</summary>
@@ -241,28 +242,19 @@
     <div class="wrap">
       <p class="kicker">Экран</p>
       <h2>Как выглядит</h2>
-      <p class="lead">Ниже места под снимки окон. Сейчас в них заглушки: закрытый репозиторий со скриншотами отсюда недоступен.</p>
-      <p class="note">Заглушки. Замените PNG в папке img/, имена файлов не меняйте, и удалите строки с пометкой «Заглушка» в подписях.</p>
+      <p class="lead">Главное окно, раздел дисков и установщик.</p>
       <div class="shot-grid">
-        <figure class="shot">
-          <!-- Заглушка: замените файл img/screen-proverka.png -->
-          <img src="img/screen-proverka.png" width="1280" height="800" alt="Заглушка скриншота: окно «Проверка ПК»" decoding="async">
-          <figcaption>Окно «Проверка ПК»: история проверок и оценка результата.<span class="slot-note">Заглушка: img/screen-proverka.png</span></figcaption>
+        <figure class="shot shot-main">
+          <img src="img/home.webp" width="1280" height="720" alt="Главное окно «Диагностика ПК»: переход к проверкам звука, дисков, SMART, драйверов, сети и отчёта" decoding="async">
+          <figcaption>Главное окно: переход к проверкам.</figcaption>
         </figure>
         <figure class="shot">
-          <!-- Заглушка: замените файл img/screen-diski.png -->
-          <img src="img/screen-diski.png" width="1280" height="800" alt="Заглушка скриншота: диски и SMART" decoding="async">
-          <figcaption>Диски и показатели SMART.<span class="slot-note">Заглушка: img/screen-diski.png</span></figcaption>
+          <img src="img/disks.webp" width="1280" height="720" alt="Раздел «Диски»: накопители и занятое место на томах" decoding="async">
+          <figcaption>Диски и показатели накопителей.</figcaption>
         </figure>
         <figure class="shot">
-          <!-- Заглушка: замените файл img/screen-temperatury.png -->
-          <img src="img/screen-temperatury.png" width="1280" height="800" alt="Заглушка скриншота: температуры" decoding="async">
-          <figcaption>Температуры и состояние датчиков.<span class="slot-note">Заглушка: img/screen-temperatury.png</span></figcaption>
-        </figure>
-        <figure class="shot">
-          <!-- Заглушка: замените файл img/screen-licenziya.png -->
-          <img src="img/screen-licenziya.png" width="1280" height="800" alt="Заглушка скриншота: раздел «Лицензия»" decoding="async">
-          <figcaption>Раздел «Лицензия»: код ПК и поле для ключа.<span class="slot-note">Заглушка: img/screen-licenziya.png</span></figcaption>
+          <img src="img/installer.webp" width="1280" height="720" alt="Установщик «Диагностика ПК»: установка, обновление, продление и перенос" decoding="async">
+          <figcaption>Установка</figcaption>
         </figure>
       </div>
     </div>
@@ -426,7 +418,7 @@
   </div>
   <p class="wrap legal">© 2026 Диагностика ПК. Связь с автором — только через Boosty. Windows — товарный знак корпорации Microsoft. Этот сайт с Microsoft не связан.</p>
 </footer>
-<script src="config.js?v=20261107b"></script>
-<script src="site.js?v=20261107b"></script>
+<script src="config.js?v=20261107c"></script>
+<script src="site.js?v=20261107c"></script>
 </body>
 </html>
